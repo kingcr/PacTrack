@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = PacTrack processing local database
+When = PostTransaction
+Exec = /etc/PacTrack.py LOCAL
