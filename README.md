@@ -12,6 +12,7 @@ To configure:
    Each simple text file simply contains a list of dependencies to add or remove from the package being synced, like so:
    
    /etc/pactrack/dependencymods/foo contains:
+   
    +bar
    
    -another-bar
