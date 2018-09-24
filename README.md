@@ -1,5 +1,5 @@
 # PacTrack
-An ALPM hook implementation to convert Arch Linux package groups into metapackages
+A pacman hook implementation to convert Arch Linux package groups into metapackages
 
 To install:
 1. Copy PacTrack.py to a suitable location
